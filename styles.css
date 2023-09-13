@@ -1,2 +1,26 @@
-
+body{
+	
+}
+.holder{
+	display:flex;
+	justify-content:space-between;
+	background-color:aqua;
+	flex-wrap:wrap;
+}
+.n{
+	width:120px;
+	height:120px;
+}
+.y{
+	background-color:yellow;
+	order:1;
+}
+.g{
+	background-color:green;
+	order:5;
+}
+.r{
+	background-color:red;
+}
+@media screen and(min)
 /* Your CSS Code here. */
